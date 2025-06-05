@@ -5,8 +5,8 @@ def addItems():
 
 def removeItems():  # Fixed function name
     dismiss = str(input("Remove Items: "))
-    if dismiss in shoppingList:  # Check if item exists
-        shoppingList.remove(dismiss)  # Use remove() not append()
+    if dismiss in shoppingList:  
+        shoppingList.remove(dismiss) () not append()
         print("Item removed!")
     else:
         print("Item not found in list!")
@@ -25,8 +25,8 @@ while True:
     print("2 to remove an item")
     print("3 to show shopping list")
     print("4 to quit")
-    
-    choice = input("Enter your choice: ")  # Get user input
+
+    choice = input("Enter your choice: ")  
     
     if choice == "1":
         addItems()
