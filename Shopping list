@@ -3,7 +3,7 @@ def addItems():
     shoppingList.append(item)
     print("Shopping List: " + str(shoppingList))
 
-def removeItems():  # Fixed function name
+def removeItems(): 
     dismiss = str(input("Remove Items: "))
     if dismiss in shoppingList:  
         shoppingList.remove(dismiss) () not append()
@@ -12,7 +12,7 @@ def removeItems():  # Fixed function name
         print("Item not found in list!")
     print("Shopping List: " + str(shoppingList))
 
-def showList():  # Fixed function name
+def showList():  
     print("Shopping List: " + str(shoppingList))
 
 # Main menu
