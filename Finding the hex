@@ -1,0 +1,3 @@
+decimal_number = int(intput("enter decimmal number"))
+hex_number = hex(decimal_number)
+print(hex_number)  
